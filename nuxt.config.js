@@ -49,6 +49,7 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/vuetify',
   ],
   /*
   ** Nuxt.js modules
@@ -67,5 +68,10 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  vue: {
+    config:{
+      devtools: true
+    }
   }
 }

@@ -1,5 +1,5 @@
 export default {
   isNOpen: state => {
-    return state.isOpen
+    return state.isLogin
   }
 }
